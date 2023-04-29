@@ -112,9 +112,7 @@ The aim of our project is to explore how demographic attributes are differential
 
 We were ultimately able to set the foundation for further exploration of the data in the next iteration of the project as a result of completing the necessary proof of concepts; which we did by honing in on the demographic of gender as it relates to various climate opinion metrics through different methods of modeling.
 
-::: {.column-screen}
-![](posters/envent-poster.png)
-:::
+See our project poster [here](https://drive.google.com/file/d/13s3MtG3fs6562Ch1kayO7nA3vhPo74ZH/view?usp=share_link).
 
 ## Earth Research Institute (ERI)
 
