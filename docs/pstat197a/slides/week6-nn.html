@@ -7,7 +7,7 @@
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.0.38">
+  <meta name="generator" content="quarto-1.2.335">
 
   <meta name="author" content="Trevor Ruiz">
   <title>Artificial Neural Networks</title>
@@ -19,10 +19,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
@@ -337,13 +342,22 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Artificial Neural Networks</h1>
   <p class="subtitle">PSTAT197A/CMPSC190DD Fall 2022</p>
-  <p class="author">Trevor Ruiz</p>
-  <p class="institute">UCSB</p>
-</section>
 
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Trevor Ruiz 
+</div>
+        <p class="quarto-title-affiliation">
+            UCSB
+          </p>
+    </div>
+</div>
+
+</section>
 <section id="announcementsreminders" class="slide level2">
 <h2>Announcements/reminders</h2>
 <p><em>Before your section meetings this week:</em></p>
@@ -656,7 +670,7 @@ Y = f(X) \quad\text{where}\quad f \equiv \sigma_z \circ h_\beta\circ \sigma_x \c
 \end{aligned}
 \]</span></p>
 <div class="fragment">
-<p>Explicitly computing gradients for each update gives the <em>backpropagation</em> algorithm of <span class="citation" data-cites="rumelhart1986learning">Rumelhart, Hinton, and Williams (<a href="#/ref-rumelhart1986learning" role="doc-biblioref" onclick="return false;">1986</a>)</span> .</p>
+<p>Explicitly computing gradients for each update gives the <em>backpropagation</em> algorithm of <span class="citation" data-cites="rumelhart1986learning">Rumelhart, Hinton, and Williams (<a href="#/references" role="doc-biblioref" onclick="">1986</a>)</span> .</p>
 </div>
 </section>
 <section id="backpropagation" class="slide level2">
@@ -691,11 +705,11 @@ g = \nabla \frac{1}{n} \sum_i L_i
 <h2>Modern optimization methods</h2>
 <p>Modern methods for training neural networks update parameters using gradient estimates and adaptive learning rates.<sup>1</sup></p>
 <ul>
-<li class="fragment">stochastic gradient descent (SGD): <span class="citation" data-cites="bottou1998online">Bottou et al. (<a href="#/ref-bottou1998online" role="doc-biblioref" onclick="return false;">1998</a>)</span> replace <span class="math inline">\(g\)</span> by <span class="math inline">\(\hat{g}\)</span></li>
-<li class="fragment">AdaGrad: <span class="citation" data-cites="duchi2011adaptive">Duchi, Hazan, and Singer (<a href="#/ref-duchi2011adaptive" role="doc-biblioref" onclick="return false;">2011</a>)</span> use SGD with adaptive learning rates</li>
-<li class="fragment">Adam: <span class="citation" data-cites="kingma2014adam">Kingma and Ba (<a href="#/ref-kingma2014adam" role="doc-biblioref" onclick="return false;">2014</a>)</span> apply bias corrections to <span class="math inline">\(\hat{g}\)</span> based on moment estimates</li>
+<li class="fragment">stochastic gradient descent (SGD): <span class="citation" data-cites="bottou1998online">Bottou et al. (<a href="#/references" role="doc-biblioref" onclick="">1998</a>)</span> replace <span class="math inline">\(g\)</span> by <span class="math inline">\(\hat{g}\)</span></li>
+<li class="fragment">AdaGrad: <span class="citation" data-cites="duchi2011adaptive">Duchi, Hazan, and Singer (<a href="#/references" role="doc-biblioref" onclick="">2011</a>)</span> use SGD with adaptive learning rates</li>
+<li class="fragment">Adam: <span class="citation" data-cites="kingma2014adam">Kingma and Ba (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span> apply bias corrections to <span class="math inline">\(\hat{g}\)</span> based on moment estimates</li>
 </ul>
-<aside><ol class="aside-footnotes"><li id="fn1" role="doc-endnote"><p>A nice overview is given in <span class="citation" data-cites="Goodfellow-et-al-2016">Goodfellow, Bengio, and Courville (<a href="#/ref-Goodfellow-et-al-2016" role="doc-biblioref" onclick="return false;">2016</a>)</span> .</p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>A nice overview is given in <span class="citation" data-cites="Goodfellow-et-al-2016">Goodfellow, Bengio, and Courville (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span> .</p></li></ol></aside></section>
 <section id="increasing-width" class="slide level2">
 <h2>Increasing width</h2>
 <div class="cell" data-fig-width="8" data-fig-height="6">
@@ -1161,7 +1175,7 @@ Z_D &amp;\equiv X &amp;\text{input layer}
 <li class="fragment"><p><span class="math inline">\(\tilde{f}(X)\)</span> represents the output layer of a feedforward neural network with one hidden layer of width <span class="math inline">\(w\)</span></p></li>
 </ul>
 <div class="fragment">
-<p><span class="citation" data-cites="hornik1989multilayer">Hornik, Stinchcombe, and White (<a href="#/ref-hornik1989multilayer" role="doc-biblioref" onclick="return false;">1989</a>)</span> showed that, under some regularity conditions, for any <span class="math inline">\(\epsilon &gt; 0\)</span> there exists a width <span class="math inline">\(w\)</span> and parameters such that:</p>
+<p><span class="citation" data-cites="hornik1989multilayer">Hornik, Stinchcombe, and White (<a href="#/references" role="doc-biblioref" onclick="">1989</a>)</span> showed that, under some regularity conditions, for any <span class="math inline">\(\epsilon &gt; 0\)</span> there exists a width <span class="math inline">\(w\)</span> and parameters such that:</p>
 <p><span class="math display">\[
 \sup_x \|f(x) - \tilde{f}(x)\| &lt; \epsilon
 \]</span></p>
@@ -1174,7 +1188,7 @@ Z_D &amp;\equiv X &amp;\text{input layer}
 <li class="fragment"><p>These results <strong><em>do</em></strong> tell us that in most problems there exist both deep and shallow networks that approximate the true input-output relationship arbitrarily well</p></li>
 <li class="fragment"><p>They <strong><em>don’t</em></strong> tell us how to find them.</p></li>
 </ul>
-<aside><ol class="aside-footnotes"><li id="fn2" role="doc-endnote"><p><span class="citation" data-cites="lu2017expressive">Lu et al. (<a href="#/ref-lu2017expressive" role="doc-biblioref" onclick="return false;">2017</a>)</span></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn2"><p><span class="citation" data-cites="lu2017expressive">Lu et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></p></li></ol></aside></section>
 <section id="performance-considerations" class="slide level2">
 <h2>Performance considerations</h2>
 <p>Several factors can affect actual performance in practice:</p>
@@ -1566,7 +1580,24 @@ Rumelhart, David E, Geoffrey E Hinton, and Ronald J Williams. 1986. <span>“Lea
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
         button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
         setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
           button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
@@ -1596,31 +1627,50 @@ Rumelhart, David E, Geoffrey E Hinton, and Ronald J Williams. 1986. <span>“Lea
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
           return note.innerHTML;
         });
       }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-        tippyHover(ref, function() {
-          var popup = window.document.createElement('div');
-          cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
-          return popup.innerHTML;
-        });
+        }
       }
     });
     </script>
