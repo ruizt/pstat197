@@ -43,6 +43,80 @@ Section meetings are held on Wednesdays:
 
 -   *Yan Lashchev.* BS student and Data Science Fellow at UCSB in 2021-2022.
 
+## Tentative schedule
+
+This schedule is tentative and may be adjusted at the discretion of the instructor. Check back for updates.
+
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| Week       | Theme                      | Tuesday meeting                                   | Thursday meeting                                | Section meeting                  |
++============+============================+===================================================+=================================================+==================================+
+| 0          | Module 0: Introductions    | NO CLASS                                          | Course orientation                              | NO LAB                           |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 1          | Module 0: Introductions    | 0.1 Lecture:                                      | 0.2 Activity:                                   | Software and technology overview |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   on research projects in(volving) data science | -   collaboration using GitHub                  |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 2          | Module 0: Introductions    | 0.3 Lecture/discussion:                           | 0.4 Activity:                                   | tidyverse                        |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   introducing class survey data                 | -   exploratory and descriptive analysis        |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 3          | Module 1: biomarkers       | 1.1 Discussion/lecture:                           | 1.2 Lecture:                                    | tidymodels                       |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   sharing results of survey data analysis;      | -   on prediction                               |                                  |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   introducing biomarker data                    |                                                 |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 4          | Module 1: biomarkers       | 1.3 Lecture:                                      | 1.4 Lecture/discussion:                         | classification                   |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   on classification                             | -   on variable selection;                      |                                  |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            |                                                   | -   review published analysis of biomarker data |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 5          | Module 2: web fraud        | 2.1 Lecture/discussion:                           | 2.2 Lecture:                                    | text processing                  |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   sharing analysis of soil temperature data;    | -   on text as data                             |                                  |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   introducing web fraud data                    |                                                 |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 6          | Module 2: web fraud        | 2.3 Lecture:                                      | 2.4 Activity:                                   | keras                            |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   on multiclass classification                  | -   measuring classification accuracy           |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 7          | Module 3: soil temperature | 3.1 Discussion/lecture:                           | 3.2 Lecture:                                    | time series analysis             |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   sharing results of biomarker analysis;        | -   on time                                     |                                  |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   introducing soil temperature data             |                                                 |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 8          | Module 3: soil temperature | 3.3 Lecture:                                      | 3.4 Discussion: results                         | spatial analysis                 |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   on space                                      |                                                 |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 9          | Module 4: vignettes        | 4.1 Activity:                                     | NO CLASS                                        | NO LAB                           |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   workshopping vignettes                        |                                                 |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+| 10         | Module 4: vignettes        | 4.2 Activity:                                     | 4.3 Activity/discussion:                        | NO LAB                           |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            | -   teaching exchange                             | -   teaching exchange;                          |                                  |
+|            |                            |                                                   |                                                 |                                  |
+|            |                            |                                                   | -   closing                                     |                                  |
++------------+----------------------------+---------------------------------------------------+-------------------------------------------------+----------------------------------+
+
+## Learning outcomes
+
+This course emphasizes collaborative, interactive, and hands-on learning. Instruction in PSTAT197A will support all students in:
+
+-   using modern technology and version control to collaborate efficiently on programming for data science projects;
+
+-   recognizing and articulating problem patterns based on data semantics and one or more research questions;
+
+-   identifying and accessing resources to aid in learning independently about methodology and/or application domains pertinent to a problem of interest;
+
+-   communicating data analysis and/or research findings in a project team setting and to a small audience of peers.
+
+Course staff are committed to creating an inclusive learning environment. Data science involves a combination of computing, statistics and probability, and domain expertise, as well as use of technology and narrative communication and storytelling, and no one person should expect to be an expert in all of these areas. Course staff recognize this fact that core competencies vary considerably, acknowledge that each student has particular strengths and weaknesses and interests, and make their best effort to avoid promoting one skill set over others in the practice of data science.
+
 ## Expectations and assessments
 
 Much of the course is designed around group activity and discussion. Students are therefore expected to:
@@ -64,6 +138,31 @@ Qualitative feedback is emphasized over numerical scores. Students are assessed 
 -   individual contributions to group assignments;
 
 -   oral interview.
+
+
+## Software {#sec-software}
+
+Computing in PSTAT197A will be shown in R, and codes and other materials will be shared via GitHub. The following software will be required to access course materials:
+
+-   [R](https://www.r-project.org/) version 4.2.0+
+
+-   [RStudio](https://www.rstudio.com/products/rstudio/download/) version 2022.07.1+
+
+-   [Git](https://git-scm.com/downloads) version 2.36.1+
+
+-   [GitHub Desktop](https://desktop.github.com/) (or another visual GitHub client)
+
+Installations and basic functionality will be covered in the first section meeting.
+
+While PSTAT197A is not language-agnostic and some instruction in R is provided, it is also not a course especially emphasizing programming technique in R. Students are free to use or experiment with other software at their discretion provided it does not interfere with their participation in the class, but are expected to submit work and collaborate using RStudio-supported files.
+
+## GitHub {#sec-github}
+
+Students will learn and practice basic functionality of Git and GitHub for version control and collaboration by accessing course materials via GitHub repositories and submitting work via repository contributions.
+
+We have a GitHub classroom for the data science capstone. Materials will be deployed via direct links. Students will be asked to submit work by contributing to team repositories; any such contributions will remain visible to course staff and team contributors, and so are not strictly private.
+
+To access GitHub Classroom materials students will need to create a GitHub account if they do not already have one. Here is some [advice on choosing a username](https://happygitwithr.com/github-acct.html#username-advice).
 
 ## Policies
 

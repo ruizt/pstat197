@@ -31,11 +31,7 @@ website:
           - section: "PSTAT197A"
             contents:
               - pstat197a/about-syllabus.qmd
-              - pstat197a/about-outcomes.qmd
-              - pstat197a/about-schedule.qmd
-              - pstat197a/about-technology.qmd
-              - pstat197a/about-links.qmd
-              - pstat197a/index-course-materials.qmd
+              - pstat197a/about-materials.qmd
           - section: "PSTAT197B-C"
             contents:
               - pstat197bc/about-syllabus.qmd

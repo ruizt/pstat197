@@ -3,7 +3,7 @@ title: "Spring class meetings"
 ---
 
 | Week        | Class meeting                            | Assignments/comments                                |
-|----------------|-------------------------|--------------------------------|
+|-------------|------------------------------------------|-----------------------------------------------------|
 | 1 (4/3/23)  | Introduction and spring quarter overview |                                                     |
 | 2 (4/10/23) | Pair 1 presents                          | Revisions to interim reports due Friday 11:59pm PST |
 | 3 (4/17/23) | Pair 2 presents                          |                                                     |
@@ -37,4 +37,11 @@ title: "Spring class meetings"
 
 ## Weeks 2-6
 
-*Monday meetings*: work-in-progress presentations, as scheduled by table \[[slides](https://docs.google.com/presentation/d/1cIvonxqJQg7svLAkVT_AVcjiIZ8PoaFdPPt8Lh2A3CA/edit?usp=sharing)\]
+-   *Monday meetings*: work-in-progress presentations, as scheduled by table \[[slides](https://docs.google.com/presentation/d/1cIvonxqJQg7svLAkVT_AVcjiIZ8PoaFdPPt8Lh2A3CA/edit?usp=sharing)\]
+
+## Week 7
+
+-   *Assignments*:
+    -   Complete \[[peer review](https://forms.gle/9PcjvEGv5YyrDTm87)\] by end of week
+    -   Prepare figure drafts for poster by next class meeting
+-   *Monday meeting*: Drafting presentation figures

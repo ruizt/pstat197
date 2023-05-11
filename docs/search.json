@@ -371,32 +371,53 @@
     "text": "Stanford National Accelerator Lab\nDiffraction image selector\nStudent team: Aleksander Cichosz, Ryan Stofer, Vardan Martirosyan, Teo Zeng, Yuer Hao\nProject advisors: Derek Mendez and Robin Liu\nThe quality of images used during serial crystallography data processing often weighs heavily on the accuracy of results. It is routine for experimenters to visually inspect and tune parameters to select the best images to process. By using state-of-the-art machine learning technologies, coupled with realistic forward modeling of crystallographic data, one can build a regression model which accepts images as inputs, and outputs experimentally interesting properties. This paves the way towards a machine intelligence capable of auto-selecting the highest quality images during diffraction collection.\nFor this project, students will use resmos2 data comprising about 10000 simulated diffraction images with corresponding labels, as well as additional simulated datasets, to build a regression model that will work in real-time to label images during data collection at SSRL beamlines. This will greatly enhance the user experience at the SSRL/SMB beamlines.\n\n\n\nFigure: Stanford synchrotron radiation lightsource facility."
   },
   {
-    "objectID": "pstat197a/about-links.html",
-    "href": "pstat197a/about-links.html",
-    "title": "Links",
+    "objectID": "pstat197a/about-materials.html",
+    "href": "pstat197a/about-materials.html",
+    "title": "Materials",
     "section": "",
     "text": "Attendance reporting form; fill out once per class meeting.\nCapstone project intake form; fill out by September 23."
   },
   {
-    "objectID": "pstat197a/about-links.html#resources",
-    "href": "pstat197a/about-links.html#resources",
-    "title": "Links",
+    "objectID": "pstat197a/about-materials.html#resources",
+    "href": "pstat197a/about-materials.html#resources",
+    "title": "Materials",
     "section": "Resources",
     "text": "Resources\nTextbooks:\n\nModern Data Science with R by Baumer, Kaplan, and Horton.\nIntroduction to Statistical Learning with Applications in R by James et al.\nFundamentals of Data Visualization by Claus Wilke.\nR for Data Science by Wickham and Grolemund.\nDeep Learning by Goodfellow, Bengio, and Courville.\n\nDocumentation:\n\nTidyverse and tidymodels packages\nGitHub Docs"
   },
   {
-    "objectID": "pstat197a/about-outcomes.html",
-    "href": "pstat197a/about-outcomes.html",
-    "title": "Learning outcomes",
-    "section": "",
-    "text": "This course emphasizes collaborative, interactive, and hands-on learning. Instruction in PSTAT197A will support all students in:\n\nusing modern technology and version control to collaborate efficiently on programming for data science projects;\nrecognizing and articulating problem patterns based on data semantics and one or more research questions;\nidentifying and accessing resources to aid in learning independently about methodology and/or application domains pertinent to a problem of interest;\ncommunicating data analysis and/or research findings in a project team setting and to a small audience of peers.\n\nCourse staff are committed to creating an inclusive learning environment. Data science involves a combination of computing, statistics and probability, and domain expertise, as well as use of technology and narrative communication and storytelling, and no one person should expect to be an expert in all of these areas. Course staff recognize this fact that core competencies vary considerably, acknowledge that each student has particular strengths and weaknesses and interests, and make their best effort to avoid promoting one skill set over others in the practice of data science."
+    "objectID": "pstat197a/about-materials.html#introductory-module",
+    "href": "pstat197a/about-materials.html#introductory-module",
+    "title": "Materials",
+    "section": "Introductory module",
+    "text": "Introductory module\nObjectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\nWeek 0\n\nThursday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading response\n\n\n\n\nWeek 1\n\nTuesday meeting: On projects in(volving) data science [slides]\nSection meeting: software and technology overview [activity]\nThursday meeting: basic GitHub actions [activity] [slides]\nAssignments due by next class meeting:\n\nread MDSR 9.1 and 9.2\nprepare a reading response\n\n\n\n\nWeek 2\n\nTuesday meeting: Introducing class intake survey data [slides]\nSection meeting: tidyverse basics [activity]\nThursday meeting: planning group work for analysis of survey data [slides]\nAssignments:\n\nfirst team assignment due Friday, October 14, 11:59 PM PST [accept via GH classroom here]"
   },
   {
-    "objectID": "pstat197a/about-schedule.html",
-    "href": "pstat197a/about-schedule.html",
-    "title": "Course schedule",
-    "section": "",
-    "text": "This schedule is tentative and may be adjusted at the discretion of the instructor. Check back for updates.\n\n\n\n\n\n\n\n\n\n\nWeek\nTheme\nTuesday meeting\nThursday meeting\nSection meeting\n\n\n\n\n0\nModule 0: Introductions\nNO CLASS\nCourse orientation\nNO LAB\n\n\n1\nModule 0: Introductions\n0.1 Lecture:\n\non research projects in(volving) data science\n\n0.2 Activity:\n\ncollaboration using GitHub\n\nSoftware and technology overview\n\n\n2\nModule 0: Introductions\n0.3 Lecture/discussion:\n\nintroducing class survey data\n\n0.4 Activity:\n\nexploratory and descriptive analysis\n\ntidyverse\n\n\n3\nModule 1: biomarkers\n1.1 Discussion/lecture:\n\nsharing results of survey data analysis;\nintroducing biomarker data\n\n1.2 Lecture:\n\non prediction\n\ntidymodels\n\n\n4\nModule 1: biomarkers\n1.3 Lecture:\n\non classification\n\n1.4 Lecture/discussion:\n\non variable selection;\nreview published analysis of biomarker data\n\nclassification\n\n\n5\nModule 2: web fraud\n2.1 Lecture/discussion:\n\nsharing analysis of soil temperature data;\nintroducing web fraud data\n\n2.2 Lecture:\n\non text as data\n\ntext processing\n\n\n6\nModule 2: web fraud\n2.3 Lecture:\n\non multiclass classification\n\n2.4 Activity:\n\nmeasuring classification accuracy\n\nkeras\n\n\n7\nModule 3: soil temperature\n3.1 Discussion/lecture:\n\nsharing results of biomarker analysis;\nintroducing soil temperature data\n\n3.2 Lecture:\n\non time\n\ntime series analysis\n\n\n8\nModule 3: soil temperature\n3.3 Lecture:\n\non space\n\n3.4 Discussion: results\nspatial analysis\n\n\n9\nModule 4: vignettes\n4.1 Activity:\n\nworkshopping vignettes\n\nNO CLASS\nNO LAB\n\n\n10\nModule 4: vignettes\n4.2 Activity:\n\nteaching exchange\n\n4.3 Activity/discussion:\n\nteaching exchange;\nclosing\n\nNO LAB"
+    "objectID": "pstat197a/about-materials.html#module-1-biomarker-identification",
+    "href": "pstat197a/about-materials.html#module-1-biomarker-identification",
+    "title": "Materials",
+    "section": "Module 1: biomarker identification",
+    "text": "Module 1: biomarker identification\nObjectives: introduce variable selection, classification, and multiple testing problems; discuss classification accuracy metrics and data partitioning; fit logistic regression and random forest classifiers in R; learn to implement multiple testing corrections for FDR control (Benjamini-Hochberg and Benjamini-Yekutieli); discuss selection via penalized estimation. Data from Hewitson et al. (2021) .\n\nWeek 3\n\nTuesday meeting: introducing biomarker data; multiple testing [slides]\nSection meeting: iteration strategies [activity]\nThursday meeting: correlation analysis; random forests [slides] [activity]\nAssignments due by next class meeting:\n\nread MDSR 10.1 - 10.2\nread Hewitson et al. (2021)\nprepare a reading response\n\n\n\n\nWeek 4\n\nTuesday meeting: random forests cont’d; logistic regression [slides]\nSection meeting: logistic regression and classification metrics [activity]\nThursday meeting: LASSO regularization [slides]\nAssignments:\n\nsecond group assignment due Friday, October 28, 11:59pm PST [accept via GH classroom] [group assignments]"
+  },
+  {
+    "objectID": "pstat197a/about-materials.html#module-2-fraud-claims",
+    "href": "pstat197a/about-materials.html#module-2-fraud-claims",
+    "title": "Materials",
+    "section": "Module 2: fraud claims",
+    "text": "Module 2: fraud claims\nObjectives: introduce NLP techniques for converting text to data and web scraping tools in R; discuss dimension reduction techniques; introduce multiclass classification; learn to process text, fit multinomial logistic regression models, and train neural networks in R.\n\nWeek 5\n\nTuesday meeting: data introduction and basic NLP techniques [slides]\nSection meeting: string manipulation and text processing in R [activity]\nThursday meeting: dimension reduction; multinomial logistic regression [slides] [activity]\nOptional further reading:\n\nMDSR Ch. 19\nCambria and White (2014)\nKhan et al. (2010)\n\n\n\n\nWeek 6\n\nTuesday meeting: feedforward neural networks [slides]\nSection meeting: fitting neural nets with keras [activity]\nThursday meeting: assignment review and planning [slides]\nAssignments:\n\nMidquarter assessments [form]\nRequest winter add code [form]\nRead Emmert-Streib et al. (2020) (§1-5, §9) and prepare a reading response\nthird group assignment due Monday, November 14, 11:59pm PST [accept via GH classroom] [group assignments]\n\nOptional further reading:\n\nAlzubaidi et al. (2021)\nGoodfellow, Bengio, and Courville (2016) Ch. 6 (advanced)"
+  },
+  {
+    "objectID": "pstat197a/about-materials.html#module-3-soil-temperatures",
+    "href": "pstat197a/about-materials.html#module-3-soil-temperatures",
+    "title": "Materials",
+    "section": "Module 3: soil temperatures",
+    "text": "Module 3: soil temperatures\nObjectives: build a forecasting model; introduce concepts of spatial and temporal correlation; discuss function approximation and curve fitting with regression techniques; fit elementary time series models and regression with AR errors; spatial interpolation.\n\nWeek 7\n\nTuesday meeting: data introduction; function approximation using basis expansions [slides]\nSection meeting: curve fitting [activity]\nThursday meeting: temporal correlation; a forecasting model [slides]\nOptional further reading (available through UCSB library)\n\nSections 1.1, 1.2, and 2.3 in Shumway and Stoffer (2017)\nPerperoglou et al. (2019)\n\n\n\n\nWeek 8\n\nTuesday meeting: spatial prediction [slides]\nSection meeting: forecasting [activity]\nThursday meeting: NO CLASS\nOptional further reading:\n\n8.1 – 8.3 in Bivand et al. (2008)\nCh. 12 in Dorman (2022, link)"
+  },
+  {
+    "objectID": "pstat197a/about-materials.html#module-4-vignettes",
+    "href": "pstat197a/about-materials.html#module-4-vignettes",
+    "title": "Materials",
+    "section": "Module 4: vignettes",
+    "text": "Module 4: vignettes\nObjectives: learn independently about a method of choice and prepare a teaching vignette illustrating its use; create shared reference material potentially useful for project work.\n\nWeek 9\n\nTuesday meeting: discussion on results of claims module; vignette workshopping [slides]\nSection meeting: NO SECTION MEETING (Thanksgiving)\nThursday meeting: NO CLASS (Thanksgiving)\nAssignments: vignettes [guidelines]\n\ndrafts due in class Thursday, 12/1 2pm PST\nfinal version due Thursday, 12/8 11:59pm PST\n\n\n\n\nWeek 10\n\nTuesday meeting: capstone project overviews [slides]\nSection meeting: office hours for vignette help\nThursday meeting: vignette presentation/exchange/feedback [feedback form]\nAssignments due by Friday, 12/2:\n\nread project abstracts\nfill out preference form (will be active end of day 11/29)"
   },
   {
     "objectID": "pstat197a/about-syllabus.html",
@@ -420,6 +441,20 @@
     "text": "Staff\nInstructor:\n\nTrevor Ruiz. Visiting assistant professor and co-instructor for 2021-2022 capstone projects.\n\nTeaching assistants:\n\nErika McPhillips. MS/PhD student and capstone project mentor in 2021-2022.\nJoshua Bang. MS/PhD student and capstone project mentor in 2021-2022.\nMeghan Elcheikhali. PhD student and capstone project mentor in 2021-2022.\n\nUndergraduate learning assistant:\n\nYan Lashchev. BS student and Data Science Fellow at UCSB in 2021-2022."
   },
   {
+    "objectID": "pstat197a/about-syllabus.html#tentative-schedule",
+    "href": "pstat197a/about-syllabus.html#tentative-schedule",
+    "title": "Course syllabus",
+    "section": "Tentative schedule",
+    "text": "Tentative schedule\nThis schedule is tentative and may be adjusted at the discretion of the instructor. Check back for updates.\n\n\n\n\n\n\n\n\n\n\nWeek\nTheme\nTuesday meeting\nThursday meeting\nSection meeting\n\n\n\n\n0\nModule 0: Introductions\nNO CLASS\nCourse orientation\nNO LAB\n\n\n1\nModule 0: Introductions\n0.1 Lecture:\n\non research projects in(volving) data science\n\n0.2 Activity:\n\ncollaboration using GitHub\n\nSoftware and technology overview\n\n\n2\nModule 0: Introductions\n0.3 Lecture/discussion:\n\nintroducing class survey data\n\n0.4 Activity:\n\nexploratory and descriptive analysis\n\ntidyverse\n\n\n3\nModule 1: biomarkers\n1.1 Discussion/lecture:\n\nsharing results of survey data analysis;\nintroducing biomarker data\n\n1.2 Lecture:\n\non prediction\n\ntidymodels\n\n\n4\nModule 1: biomarkers\n1.3 Lecture:\n\non classification\n\n1.4 Lecture/discussion:\n\non variable selection;\nreview published analysis of biomarker data\n\nclassification\n\n\n5\nModule 2: web fraud\n2.1 Lecture/discussion:\n\nsharing analysis of soil temperature data;\nintroducing web fraud data\n\n2.2 Lecture:\n\non text as data\n\ntext processing\n\n\n6\nModule 2: web fraud\n2.3 Lecture:\n\non multiclass classification\n\n2.4 Activity:\n\nmeasuring classification accuracy\n\nkeras\n\n\n7\nModule 3: soil temperature\n3.1 Discussion/lecture:\n\nsharing results of biomarker analysis;\nintroducing soil temperature data\n\n3.2 Lecture:\n\non time\n\ntime series analysis\n\n\n8\nModule 3: soil temperature\n3.3 Lecture:\n\non space\n\n3.4 Discussion: results\nspatial analysis\n\n\n9\nModule 4: vignettes\n4.1 Activity:\n\nworkshopping vignettes\n\nNO CLASS\nNO LAB\n\n\n10\nModule 4: vignettes\n4.2 Activity:\n\nteaching exchange\n\n4.3 Activity/discussion:\n\nteaching exchange;\nclosing\n\nNO LAB"
+  },
+  {
+    "objectID": "pstat197a/about-syllabus.html#learning-outcomes",
+    "href": "pstat197a/about-syllabus.html#learning-outcomes",
+    "title": "Course syllabus",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nThis course emphasizes collaborative, interactive, and hands-on learning. Instruction in PSTAT197A will support all students in:\n\nusing modern technology and version control to collaborate efficiently on programming for data science projects;\nrecognizing and articulating problem patterns based on data semantics and one or more research questions;\nidentifying and accessing resources to aid in learning independently about methodology and/or application domains pertinent to a problem of interest;\ncommunicating data analysis and/or research findings in a project team setting and to a small audience of peers.\n\nCourse staff are committed to creating an inclusive learning environment. Data science involves a combination of computing, statistics and probability, and domain expertise, as well as use of technology and narrative communication and storytelling, and no one person should expect to be an expert in all of these areas. Course staff recognize this fact that core competencies vary considerably, acknowledge that each student has particular strengths and weaknesses and interests, and make their best effort to avoid promoting one skill set over others in the practice of data science."
+  },
+  {
     "objectID": "pstat197a/about-syllabus.html#expectations-and-assessments",
     "href": "pstat197a/about-syllabus.html#expectations-and-assessments",
     "title": "Course syllabus",
@@ -427,25 +462,25 @@
     "text": "Expectations and assessments\nMuch of the course is designed around group activity and discussion. Students are therefore expected to:\n\nprepare for class meetings in advance by completing any assigned reading or activity;\nattend and actively participate in class meetings and section meetings;\nprovide meaningful, timely, and concrete contributions to group activities.\n\nStudents having any difficulty in meeting these expectations should raise the issue(s) promptly with the instructor.\nQualitative feedback is emphasized over numerical scores. Students are assessed on:\n\nattendance, preparation, and participation;\nquality of submitted work;\nindividual contributions to group assignments;\noral interview."
   },
   {
+    "objectID": "pstat197a/about-syllabus.html#sec-software",
+    "href": "pstat197a/about-syllabus.html#sec-software",
+    "title": "Course syllabus",
+    "section": "Software",
+    "text": "Software\nComputing in PSTAT197A will be shown in R, and codes and other materials will be shared via GitHub. The following software will be required to access course materials:\n\nR version 4.2.0+\nRStudio version 2022.07.1+\nGit version 2.36.1+\nGitHub Desktop (or another visual GitHub client)\n\nInstallations and basic functionality will be covered in the first section meeting.\nWhile PSTAT197A is not language-agnostic and some instruction in R is provided, it is also not a course especially emphasizing programming technique in R. Students are free to use or experiment with other software at their discretion provided it does not interfere with their participation in the class, but are expected to submit work and collaborate using RStudio-supported files."
+  },
+  {
+    "objectID": "pstat197a/about-syllabus.html#sec-github",
+    "href": "pstat197a/about-syllabus.html#sec-github",
+    "title": "Course syllabus",
+    "section": "GitHub",
+    "text": "GitHub\nStudents will learn and practice basic functionality of Git and GitHub for version control and collaboration by accessing course materials via GitHub repositories and submitting work via repository contributions.\nWe have a GitHub classroom for the data science capstone. Materials will be deployed via direct links. Students will be asked to submit work by contributing to team repositories; any such contributions will remain visible to course staff and team contributors, and so are not strictly private.\nTo access GitHub Classroom materials students will need to create a GitHub account if they do not already have one. Here is some advice on choosing a username."
+  },
+  {
     "objectID": "pstat197a/about-syllabus.html#policies",
     "href": "pstat197a/about-syllabus.html#policies",
     "title": "Course syllabus",
     "section": "Policies",
     "text": "Policies\nAttendance. Regular attendance is expected. Each student can miss two sessions without notice; further absences may impact course grades. Students are responsible for material discussed in their absence and should review posted session notes and consult a classmate.\nDeadlines. Students are expected to meet assignment deadlines in a timely manner. All deadlines have a 24-hour grace period. Late or amended work may not be accepted.\nEmail. Course staff will make their best effort to reply to email within 48 weekday hours. However, due to high volume, staff cannot guarantee that all messages will receive replies.\nIllness. Students who are ill are required to stay home. Students ill with COVID-19 must comply with university policy regarding reporting and quarantine. Accommodations will be made to ensure that students absent due to illness do not fall behind.\nAccommodations. Reasonable accommodations will be made for any student with a qualifying disability. Such requests should be made through the Disabled Students Program (DSP). More information, instructions on how to access accommodations, and information on related resources can be found on the DSP website. Note: in this class there are no timed assessments.\nLetter grades. Letter grades are assigned based only on the assessments identified above and according to university guidelines, with the relative weighting of assessments determined at the discretion of the instructor. While grade calculations will not be disclosed, students are entitled to an explanation of the criteria used to determine their grades if desired. Grades will not be changed except in the case of clerical errors. If students feel their grade has been unfairly assigned, they are entitled to contest it following UCSB procedure for contesting grades.\nConduct. All course participants are expected to maintain respectful and honorable conduct consistent with UCSB ethical standards. Students uncomfortable with the behavior of another course participant for any reason should notify the instructor, course staff, or, if the complaint relates to course staff conduct, an administrative or departmental officer. Evidence of academic dishonesty will be reported to the Office of Student Conduct (OSC); evidence of problematic behavior will be addressed on a case-by-case basis in accord with university policies."
-  },
-  {
-    "objectID": "pstat197a/about-technology.html",
-    "href": "pstat197a/about-technology.html",
-    "title": "Technology",
-    "section": "",
-    "text": "Computing in PSTAT197A will be shown in R, and codes and other materials will be shared via GitHub. The following software will be required to access course materials:\n\nR version 4.2.0+\nRStudio version 2022.07.1+\nGit version 2.36.1+\nGitHub Desktop (or another visual GitHub client)\n\nInstallations and basic functionality will be covered in the first section meeting.\nWhile PSTAT197A is not language-agnostic and some instruction in R is provided, it is also not a course especially emphasizing programming technique in R. Students are free to use or experiment with other software at their discretion provided it does not interfere with their participation in the class, but are expected to submit work and collaborate using RStudio-supported files."
-  },
-  {
-    "objectID": "pstat197a/about-technology.html#sec-github",
-    "href": "pstat197a/about-technology.html#sec-github",
-    "title": "Technology",
-    "section": "GitHub",
-    "text": "GitHub\nStudents will learn and practice basic functionality of Git and GitHub for version control and collaboration by accessing course materials via GitHub repositories and submitting work via repository contributions.\nWe have a GitHub classroom for the data science capstone. Materials will be deployed via direct links. Students will be asked to submit work by contributing to team repositories; any such contributions will remain visible to course staff and team contributors, and so are not strictly private.\nTo access GitHub Classroom materials students will need to create a GitHub account if they do not already have one. Here is some advice on choosing a username."
   },
   {
     "objectID": "pstat197a/activities/github-basics.html",
@@ -558,41 +593,6 @@
     "title": "Activity: multinomial logistic regression",
     "section": "Activity 3 (10 min)",
     "text": "Activity 3 (10 min)\nNow we’ll fit a multinomial logistic regression model using the multiclass labels rather than the binary ones, still using regularization to prevent overfitting.\n\nStep 1: multinomial regression\nUse the code chunk below to do the fitting. Notice that it’s as simple as supplying the multiclass labels and changing the family = 'binomial' to family = 'multinomial' , but the number of non-intercept parameters is now\n\\[\n\\text{number of predictors} \\times (\\text{number of classes} - 1)\n\\]\nSo in our case, the logistic regression model had \\(p = 55\\) , but when we fit a multinomial model to the data using labels with \\(k = 5\\) classes, we have \\(p(k - 1) = 220\\) parameters!\n\n# get multiclass labels\ny_train_multi <- train_labels %>% pull(mclass)\n\n# fit enet model\nalpha_enet <- 0.2\nfit_reg_multi <- glmnet(x = x_train, \n                  y = y_train_multi, \n                  family = 'multinomial',\n                  alpha = alpha_enet)\n\n# choose a strength by cross-validation\nset.seed(102722)\ncvout_multi <- cv.glmnet(x = x_train, \n                   y = y_train_multi, \n                   family = 'multinomial',\n                   alpha = alpha_enet)\n\n# view results\ncvout\n\n\n\nStep 2: predictions\nThe predictions from this model are a set of proabilities, one per class:\n\npreds_multi <- predict(fit_reg_multi, \n        s = cvout_multi$lambda.min, \n        newx = x_test,\n        type = 'response')\n\nas_tibble(preds_multi[, , 1]) \n\nIf we choose the most probable class as the prediction and cross-tabulate with the actual label, we end up with the following table:\n\npred_class <- as_tibble(preds_multi[, , 1]) %>% \n  mutate(row = row_number()) %>%\n  pivot_longer(-row, \n               names_to = 'label',\n               values_to = 'probability') %>%\n  group_by(row) %>%\n  slice_max(probability, n = 1) %>%\n  pull(label)\n\npred_tbl <- table(pull(test_labels, mclass), pred_class)\n\npred_tbl\n\n\n\n\n\n\n\nImportant\n\n\n\nIf time, take a moment to discuss:\n\nWhat do you think of the overall accuracy?\nWhich classes are well-predicted and which are not?\nDo you prefer the logistic or multinomial regression and why?"
-  },
-  {
-    "objectID": "pstat197a/index-course-materials.html",
-    "href": "pstat197a/index-course-materials.html",
-    "title": "Course materials",
-    "section": "",
-    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nThursday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading response\n\n\n\n\n\n\nTuesday meeting: On projects in(volving) data science [slides]\nSection meeting: software and technology overview [activity]\nThursday meeting: basic GitHub actions [activity] [slides]\nAssignments due by next class meeting:\n\nread MDSR 9.1 and 9.2\nprepare a reading response\n\n\n\n\n\n\nTuesday meeting: Introducing class intake survey data [slides]\nSection meeting: tidyverse basics [activity]\nThursday meeting: planning group work for analysis of survey data [slides]\nAssignments:\n\nfirst team assignment due Friday, October 14, 11:59 PM PST [accept via GH classroom here]"
-  },
-  {
-    "objectID": "pstat197a/index-course-materials.html#module-1-biomarker-identification",
-    "href": "pstat197a/index-course-materials.html#module-1-biomarker-identification",
-    "title": "Course materials",
-    "section": "Module 1: biomarker identification",
-    "text": "Module 1: biomarker identification\nObjectives: introduce variable selection, classification, and multiple testing problems; discuss classification accuracy metrics and data partitioning; fit logistic regression and random forest classifiers in R; learn to implement multiple testing corrections for FDR control (Benjamini-Hochberg and Benjamini-Yekutieli); discuss selection via penalized estimation. Data from Hewitson et al. (2021) .\n\nWeek 3\n\nTuesday meeting: introducing biomarker data; multiple testing [slides]\nSection meeting: iteration strategies [activity]\nThursday meeting: correlation analysis; random forests [slides] [activity]\nAssignments due by next class meeting:\n\nread MDSR 10.1 - 10.2\nread Hewitson et al. (2021)\nprepare a reading response\n\n\n\n\nWeek 4\n\nTuesday meeting: random forests cont’d; logistic regression [slides]\nSection meeting: logistic regression and classification metrics [activity]\nThursday meeting: LASSO regularization [slides]\nAssignments:\n\nsecond group assignment due Friday, October 28, 11:59pm PST [accept via GH classroom] [group assignments]"
-  },
-  {
-    "objectID": "pstat197a/index-course-materials.html#module-2-fraud-claims",
-    "href": "pstat197a/index-course-materials.html#module-2-fraud-claims",
-    "title": "Course materials",
-    "section": "Module 2: fraud claims",
-    "text": "Module 2: fraud claims\nObjectives: introduce NLP techniques for converting text to data and web scraping tools in R; discuss dimension reduction techniques; introduce multiclass classification; learn to process text, fit multinomial logistic regression models, and train neural networks in R.\n\nWeek 5\n\nTuesday meeting: data introduction and basic NLP techniques [slides]\nSection meeting: string manipulation and text processing in R [activity]\nThursday meeting: dimension reduction; multinomial logistic regression [slides] [activity]\nOptional further reading:\n\nMDSR Ch. 19\nCambria and White (2014)\nKhan et al. (2010)\n\n\n\n\nWeek 6\n\nTuesday meeting: feedforward neural networks [slides]\nSection meeting: fitting neural nets with keras [activity]\nThursday meeting: assignment review and planning [slides]\nAssignments:\n\nMidquarter assessments [form]\nRequest winter add code [form]\nRead Emmert-Streib et al. (2020) (§1-5, §9) and prepare a reading response\nthird group assignment due Monday, November 14, 11:59pm PST [accept via GH classroom] [group assignments]\n\nOptional further reading:\n\nAlzubaidi et al. (2021)\nGoodfellow, Bengio, and Courville (2016) Ch. 6 (advanced)"
-  },
-  {
-    "objectID": "pstat197a/index-course-materials.html#module-3-soil-temperatures",
-    "href": "pstat197a/index-course-materials.html#module-3-soil-temperatures",
-    "title": "Course materials",
-    "section": "Module 3: soil temperatures",
-    "text": "Module 3: soil temperatures\nObjectives: build a forecasting model; introduce concepts of spatial and temporal correlation; discuss function approximation and curve fitting with regression techniques; fit elementary time series models and regression with AR errors; spatial interpolation.\n\nWeek 7\n\nTuesday meeting: data introduction; function approximation using basis expansions [slides]\nSection meeting: curve fitting [activity]\nThursday meeting: temporal correlation; a forecasting model [slides]\nOptional further reading (available through UCSB library)\n\nSections 1.1, 1.2, and 2.3 in Shumway and Stoffer (2017)\nPerperoglou et al. (2019)\n\n\n\n\nWeek 8\n\nTuesday meeting: spatial prediction [slides]\nSection meeting: forecasting [activity]\nThursday meeting: NO CLASS\nOptional further reading:\n\n8.1 – 8.3 in Bivand et al. (2008)\nCh. 12 in Dorman (2022, link)"
-  },
-  {
-    "objectID": "pstat197a/index-course-materials.html#module-4-vignettes",
-    "href": "pstat197a/index-course-materials.html#module-4-vignettes",
-    "title": "Course materials",
-    "section": "Module 4: vignettes",
-    "text": "Module 4: vignettes\nObjectives: learn independently about a method of choice and prepare a teaching vignette illustrating its use; create shared reference material potentially useful for project work.\n\nWeek 9\n\nTuesday meeting: discussion on results of claims module; vignette workshopping [slides]\nSection meeting: NO SECTION MEETING (Thanksgiving)\nThursday meeting: NO CLASS (Thanksgiving)\nAssignments: vignettes [guidelines]\n\ndrafts due in class Thursday, 12/1 2pm PST\nfinal version due Thursday, 12/8 11:59pm PST\n\n\n\n\nWeek 10\n\nTuesday meeting: capstone project overviews [slides]\nSection meeting: office hours for vignette help\nThursday meeting: vignette presentation/exchange/feedback [feedback form]\nAssignments due by Friday, 12/2:\n\nread project abstracts\nfill out preference form (will be active end of day 11/29)"
   },
   {
     "objectID": "pstat197a/labs/lab1-setup/lab1-setup.html",
@@ -3409,11 +3409,18 @@
     "text": "Week 1\n\nMonday meeting: welcome back and spring term overview [slides]\nClass assignments:\n\nrevisions to interim reports due Friday 4/14 11:59pm PST (upload to same folder as before with suffix -revised)\nfigure for website due Friday 4/14 11:59pm PST [upload here]"
   },
   {
-    "objectID": "pstat197bc/about-spring-meetings.html#week-2",
-    "href": "pstat197bc/about-spring-meetings.html#week-2",
+    "objectID": "pstat197bc/about-spring-meetings.html#weeks-2-6",
+    "href": "pstat197bc/about-spring-meetings.html#weeks-2-6",
     "title": "Spring class meetings",
-    "section": "Week 2",
-    "text": "Week 2\nMonday meeting: first pair of work-in-progress presentations [slides]"
+    "section": "Weeks 2-6",
+    "text": "Weeks 2-6\n\nMonday meetings: work-in-progress presentations, as scheduled by table [slides]"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#week-7",
+    "href": "pstat197bc/about-spring-meetings.html#week-7",
+    "title": "Spring class meetings",
+    "section": "Week 7",
+    "text": "Week 7\n\nAssignments:\n\nComplete [peer review] by end of week\nPrepare figure drafts for poster by next class meeting\n\nMonday meeting: Drafting presentation figures"
   },
   {
     "objectID": "pstat197bc/about-syllabus.html",
@@ -3659,12 +3666,5 @@
     "title": "Work-in-progress presentations",
     "section": "Practicalities",
     "text": "Practicalities\nUse the monitor at your table to show slides. Note that these monitors cannot be used to extend your laptop display, so you’ll need to upload the materials you need in advance [here] and then open them in the browser on your table’s monitor.\nPosition yourself near the monitor and ensure that everyone can hear you before you begin. Since groups will be presenting in parallel in a confined space and there will be some background noise, this check is important. You may need to rearrange the audience slightly and/or speak up.\nTry to maintain a connection with your table over the course of these presentations by participating in discussion when others present, and when you are presenting, by speaking to the others at the table (rather than to the screen, the ceiling, the tabletop, etc.) and checking to make sure they’re following along."
-  },
-  {
-    "objectID": "pstat197bc/about-spring-meetings.html#weeks-2-6",
-    "href": "pstat197bc/about-spring-meetings.html#weeks-2-6",
-    "title": "Spring class meetings",
-    "section": "Weeks 2-6",
-    "text": "Weeks 2-6\nMonday meetings: work-in-progress presentations, as scheduled by table [slides]"
   }
 ]
