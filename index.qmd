@@ -1,6 +1,6 @@
 ---
 title: "Data science capstone at UCSB"
-subtitle: "Sponsored research experiences for undergraduates in interdisciplinary data science, computational science, and statistics"
+subtitle: "Collaborative research experiences for undergraduates in interdisciplinary data science, computational science, and statistics"
 ---
 
 ::: callout-note
