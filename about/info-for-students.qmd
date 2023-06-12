@@ -3,7 +3,7 @@ title: "Information for students"
 editor: visual
 ---
 
-The goal of the capstone program is to provide training in collaborative data science, hands-on research experience, and career development opportunities to students entering the job market or considering graduate school.
+The goal of the capstone is to provide training in collaborative data science, hands-on research experience, and career development opportunities to students entering the job market or considering graduate school.
 
 The capstone is designed primarily for senior students of any discipline having an intermediate level of experience with applied quantitative methods of any kind and some exposure to programming. It is not expected that students will have obtained any specialized background or completed advanced coursework prior to participating, and students from non-PSTAT major programs are especially encouraged to apply. Here you can find information on eligibility, how to apply, and program outcomes.
 
@@ -26,7 +26,7 @@ The capstone is designed primarily for senior students of any discipline having 
 
 -   Students must make a full year commitment -- enroll in one 4-credit course each quarter -- to participate
 
--   Specialized or advanced training in statistical modeling, machine learning, computing, data science, etc., ***not required***
+-   Specialized or advanced training in statistical modeling, machine learning, computing, data science, etc., ***not required for non-PSTAT students***
 
 -   Non-PSTAT students are especially encouraged to apply
 :::
@@ -37,7 +37,7 @@ Applications open in Spring quarter and remain open through summer. To apply, si
 
 \[[Application form](https://forms.gle/oxcQrPbsMjwGmPWc8)\]
 
-Applications will be reviewed starting in week 5 and on a rolling basis thereafter. An initial cohort will be admitted by the end of spring quarter and provided add codes for enrollment. Other applicants meeting eligibility requirements will be waitlisted, and any remaining seats will be allocated by September 1 prior to the start of the program year. After this date applications will be closed.
+Applications will be reviewed starting in week 5 and on a rolling basis thereafter. An initial cohort will be admitted by the end of spring quarter and provided add codes for enrollment. Other applicants meeting eligibility requirements will be waitlisted, and any remaining seats will be allocated by mid-September prior to the start of the program year. After this date applications will be closed.
 
 ## What to expect
 
@@ -58,6 +58,18 @@ Students should be of junior or senior standing by the term they would begin the
 Students should have a strong academic record and be motivated to learn independently and work on a research problem.
 
 ## FAQ
+
+*How are students selected for enrollment in the class?*
+
+Applications are screened to ensure participation requirements are met: completion of prerequisites, good academic record, and junior or senior standing. After screening, selection for enrollment is carried out by a random lottery.
+
+*Is there a GPA requirement?*
+
+Your GPA weighs in determining eligibility to participate, but there is not a hard cutoff.
+
+*What happens if I am waitlisted?*
+
+If you are waitlisted, that means that you met all requirements to join the class but were not selected in the initial lottery. If so, you will be considered for any seats that open up before the start of the quarter; selection for these seats is also carried out by random lottery.
 
 *Are there any specific languages/packages I need to know?*
 

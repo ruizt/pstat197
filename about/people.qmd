@@ -2,7 +2,17 @@
 title: 'People'
 ---
 
-*Program participants listed by year.*
+::: callout-note
+## Contacts for 2023-2024 capstone
+
+-   Laura Baracaldo Lancheros, visiting assistant professor: project sponsorship and course information for 23-24 \[[email](mailto:lnbaracaldol@ucsb.edu)\]
+
+-   Ellery Wilkie, undergraduate advisor: applications, information for students, enrollment \[[email](mailto:ewilkie@ucsb.edu)\]
+
+-   Tim Robinson, academic coordinator: general questions \[[email](mailto:trobinson@ucsb.edu)\]
+:::
+
+*Participants listed by year.*
 
 ## 2022-2023
 
