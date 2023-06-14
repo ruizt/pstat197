@@ -18,9 +18,9 @@ website:
       - icon: slack
         href: https://ucsbdscapstone.slack.com
     contents:
-      - about/info-for-students.qmd
-      - about/info-for-sponsors.qmd
-      - about/people.qmd
+      - info-for-students.qmd
+      - info-for-sponsors.qmd
+      - people.qmd
       - section: "Projects"
         contents:
           - projects/projects-22-23.qmd

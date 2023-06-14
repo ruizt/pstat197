@@ -10,7 +10,7 @@ subtitle: "Collaborative research experiences for undergraduates in interdiscipl
 -   2023-2024 capstone class is now waitlist-only; next selection to take place by mid-September
 :::
 
-![](img/2023-group-photo.jpg)
+![2022-2023 Capstone Students](img/2023-group-photo.jpg)
 
 Welcome to the homepage for UC Santa Barbara's data science capstone.
 

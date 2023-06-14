@@ -3,7 +3,7 @@ title: "Spring class meetings"
 ---
 
 | Week        | Class meeting                            | Assignments/comments                                |
-|------------------|------------------------|-------------------------------|
+|------------------|------------------------|------------------------------|
 | 1 (4/3/23)  | Introduction and spring quarter overview |                                                     |
 | 2 (4/10/23) | Pair 1 presents                          | Revisions to interim reports due Friday 11:59pm PST |
 | 3 (4/17/23) | Pair 2 presents                          |                                                     |
@@ -69,4 +69,4 @@ title: "Spring class meetings"
 
     -   Submit PDF copy of your group's poster \[[drive folder](https://drive.google.com/drive/folders/1ReHsyTzti_BHum734xFEeEZJrVD_b344?usp=sharing)\]
 
--   *Monday meeting:* poster showcase at Loma Pelona
+-   *Monday meeting:* poster showcase at Loma Pelona \[[photos](https://ucsb.box.com/s/64vkhbw8bpwpj1sz0flyhdd0q222npe6)\]

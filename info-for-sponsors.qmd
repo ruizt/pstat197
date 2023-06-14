@@ -1,0 +1,71 @@
+---
+title: "Sponsor a project"
+editor: visual
+---
+
+## How to sponsor a project
+
+We are considering projects for the 2023-2024 academic year on a rolling basis through November 1, 2023. The process for proposing a project is as follows:
+
+1.  Provide a short pitch by filling out our \[[interest form](https://forms.gle/BQThimQKPAWdDJ2c8)\].
+2.  If your project seems like a good fit, we will contact you to request a project abstract.
+3.  The lead capstone instructor will review your abstract and either accept the project, propose revisions, or decline the project.
+4.  Project abstracts must be finalized by November 15, 2023 for distribution to students to solicit student preferences regarding team assignments.
+
+**We are happy to provide consultations at any point in this process.** Please see the [people page](people.qmd) for current program contacts.
+
+## Successful projects
+
+Data science capstone projects at UCSB are, above all, about creating educational and professional opportunities for students. We want to work with project sponsors who share our commitment to contribute to student learning. Participation can benefit sponsors by providing pilot research or advancing existing projects, and can also provide opportunities to form new partnerships and collaborations and potentially recruit talent.
+
+We have found that successful projects include students in making novel contributions to a broader research agenda based on concrete starting points. In other words, projects tend to be productive when there is a clear focus and purpose. In our view, mutually beneficial success is most likely when sponsors:
+
+-   are invested in students' intellectual and professional development;
+
+-   have identified a well-defined data science problem of clear value to their agenda or organization;
+
+-   can provide initial work (analysis, codes, relevant literature) and hands-on direction and training to students at the beginning of the project to facilitate a quick start.
+
+Projects tend to be less productive in the absence of very specific direction and engagement on the part of the sponsor at the outset of the project -- this often results in protracted exploratory analyses lacking focus. Typically, given the proper initial support, students are able to make progress with a fair degree of autonomy after a few weeks.
+
+## Timeline
+
+Project work takes place in winter and spring quarters each year. As such, we follow this approximate timeline:
+
+-   *June -- October*: project recruitment for upcoming year
+
+-   *October -- November*: development of project plans in collaboration with sponsors
+
+-   *December*: assignment of students and a faculty or graduate student advisor to the project
+
+-   *January*: project work begins
+
+-   *June*: project work concludes with poster showcase on UCSB's campus
+
+The general expectation is that datasets are in hand by the time project work begins. However, in some cases, projects may start with pilot data.
+
+## Logistics
+
+Sponsors provide:
+
+-   project objectives and datasets;
+
+-   an advisor available to meet for one hour weekly or biweekly with the project team (virtual meetings ok) during the working period (January -- June);
+
+-   (non-UCSB-affiliated sponsors only) a participation fee to support the project showcase and prizes for best projects
+
+UCSB provides:
+
+-   consultation on project plan development;
+
+-   at least one faculty or graduate student co-advisor to join project meetings and assist students in meeting project goals;
+
+-   student research team matched to the project based on interests and skills;
+
+-   meeting space and research computing resources.
+
+## Disclosure agreements
+
+Sponsors may wish to establish disclosure agreements covering the scope of project work. Typically such agreements pertain to data and information provided by the project sponsor for educational purposes, and are entered into by the university with the support of capstone program staff. Any such agreements are binding on students and faculty as university representatives.
+
+In the 2023-2024 academic year we will be providing a standard nondisclosure agreement on request. We are happy to consider modifications to the standard agreement provided they are not overly restrictive -- students will need to discuss their work with the class and prepare a public poster presentation in order to earn university credit. It should be noted that the university cannot enter into agreements pertaining to ownership of project deliverables -- students retain rights to work that they produce for academic credit.
