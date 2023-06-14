@@ -11,7 +11,7 @@
     "href": "info-for-sponsors.html",
     "title": "Sponsor a project",
     "section": "",
-    "text": "We are considering projects for the 2023-2024 academic year on a rolling basis through November 1, 2023. The process for proposing a project is as follows:\n\nProvide a short pitch by filling out our [interest form].\nIf your project seems like a good fit, we will contact you to request a project abstract.\nThe lead capstone instructor will review your abstract and either accept the project, propose revisions, or decline the project.\nProject abstracts must be finalized by November 15, 2023 for distribution to students to solicit student preferences regarding team assignments.\n\nWe are happy to provide consultations at any point in this process. Please see the people page for current program contacts."
+    "text": "We are considering projects for the 2023-2024 academic year on a rolling basis through November 1, 2023. The process for proposing a project is as follows:\nWe are happy to provide consultations at any point in this process. Please see the people page for current program contacts."
   },
   {
     "objectID": "info-for-sponsors.html#successful-projects",
@@ -3729,5 +3729,19 @@
     "title": "Work-in-progress presentations",
     "section": "Practicalities",
     "text": "Practicalities\nUse the monitor at your table to show slides. Note that these monitors cannot be used to extend your laptop display, so you’ll need to upload the materials you need in advance [here] and then open them in the browser on your table’s monitor.\nPosition yourself near the monitor and ensure that everyone can hear you before you begin. Since groups will be presenting in parallel in a confined space and there will be some background noise, this check is important. You may need to rearrange the audience slightly and/or speak up.\nTry to maintain a connection with your table over the course of these presentations by participating in discussion when others present, and when you are presenting, by speaking to the others at the table (rather than to the screen, the ceiling, the tabletop, etc.) and checking to make sure they’re following along."
+  },
+  {
+    "objectID": "info-for-sponsors.html#why-participate",
+    "href": "info-for-sponsors.html#why-participate",
+    "title": "Sponsor a project",
+    "section": "Why participate?",
+    "text": "Why participate?\nData science capstone projects at UCSB are, above all, about creating educational and professional opportunities for students. We want to work with project sponsors who share our commitment to student learning.\nParticipation can benefit sponsors by providing pilot research or advancing existing projects, and can also provide opportunities to form new partnerships and collaborations and potentially recruit talent."
+  },
+  {
+    "objectID": "info-for-sponsors.html#tips-for-success",
+    "href": "info-for-sponsors.html#tips-for-success",
+    "title": "Sponsor a project",
+    "section": "Tips for success",
+    "text": "Tips for success\nWe have found that successful projects include students in making novel contributions to a broader research agenda based on concrete starting points. In other words, projects tend to be productive when there is a clear focus and purpose. In our view, mutually beneficial success is most likely when sponsors:\n\nare invested in students’ intellectual and professional development;\nhave identified a well-defined data science problem of clear value to their agenda or organization;\ncan provide initial work (analysis, codes, relevant literature) and hands-on direction and training to students at the beginning of the project to facilitate a quick start.\n\nProjects tend to be less productive in the absence of very specific direction and engagement on the part of the sponsor at the outset of the project – this often results in protracted exploratory analyses lacking focus. Typically, given the proper initial support, students are able to make ongoing progress with a fair degree of autonomy after a few weeks."
   }
 ]

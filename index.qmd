@@ -6,7 +6,7 @@ subtitle: "Collaborative research experiences for undergraduates in interdiscipl
 ::: callout-note
 ## Announcements
 
--   [Interest form](https://forms.gle/BQThimQKPAWdDJ2c8) for project sponsorship proposals now available; read more on our [info for sponsors page](about/info-for-sponsors.qmd)
+-   [Interest form](https://forms.gle/BQThimQKPAWdDJ2c8) for project sponsorship proposals now available; read more on our [info for sponsors page](info-for-sponsors.qmd)
 -   2023-2024 capstone class is now waitlist-only; next selection to take place by mid-September
 :::
 
