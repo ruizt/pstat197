@@ -4,12 +4,6 @@ editor: visual
 bibliography: slides/refs.bib
 ---
 
-## Class forms {#sec-class-forms}
-
--   [Attendance reporting form](https://forms.gle/ceJsFyuw6i58j6tBA); fill out once per class meeting.
-
--   [Capstone project intake form](https://forms.gle/zQT8jc85Y71BKYV48); fill out by September 23.
-
 ## Resources
 
 ***Textbooks:***
@@ -42,11 +36,11 @@ bibliography: slides/refs.bib
 
     -   install course software and create github account;
 
-    -   fill out [intake form](https://forms.gle/zQT8jc85Y71BKYV48)
+    -   fill out intake form
 
     -   read @peng2022perspective;
 
-    -   prepare a [reading response](https://forms.gle/n2GpNGMVXVaAXSWf9)
+    -   prepare a reading response
 
 ### Week 1 {#sec-week-1}
 
@@ -60,7 +54,7 @@ bibliography: slides/refs.bib
 
     -   read [MDSR 9.1 and 9.2](https://mdsr-book.github.io/mdsr2e/ch-foundations.html#samples-and-populations)
 
-    -   prepare a [reading response](https://forms.gle/jAekx68c7ju4GYxL7)
+    -   prepare a reading response
 
 ### Week 2
 
@@ -92,7 +86,7 @@ bibliography: slides/refs.bib
 
     -   read @hewitson2021blood
 
-    -   prepare a [reading response](https://forms.gle/o4QYoPh8tCAYswLt7)
+    -   prepare a reading response
 
 ### Week 4
 
@@ -100,7 +94,7 @@ bibliography: slides/refs.bib
 -   ***Section meeting:*** logistic regression and classification metrics \[[activity](labs/lab4-logistic/lab4-logistic.qmd)\]
 -   ***Thursday meeting:*** LASSO regularization \[[slides](slides/week4-lasso.qmd)\]
 -   ***Assignments:***
-    -   second group assignment due ***Friday, October 28, 11:59pm PST*** \[[accept via GH classroom](https://classroom.github.com/a/YmfzBeRn)\] \[[group assignments](https://docs.google.com/spreadsheets/d/1rkPDeIrd6zhFB7wnVpbU6HYs1aM1RGz9ulU6ypaQrwU/edit?usp=sharing)\]
+    -   second group assignment due ***Friday, October 28, 11:59pm PST*** \[[accept via GH classroom](https://classroom.github.com/a/YmfzBeRn)\] \[group assignments\]
 
 ## Module 2: fraud claims
 
@@ -132,10 +126,10 @@ bibliography: slides/refs.bib
 
 -   ***Assignments:***
 
-    -   Midquarter assessments \[[form](https://forms.gle/v7xUk83EfxiFEKVS9)\]
-    -   Request winter add code \[[form](https://forms.gle/S8j2MPcnunU6Kzek9)\]
-    -   Read @emmert2020introductory (§1-5, §9) and prepare a [reading response](https://forms.gle/FSAStof9zNCLBM578)
-    -   third group assignment ***due Monday, November 14, 11:59pm PST*** \[[accept via GH classroom](https://classroom.github.com/a/jHAX1yAx)\] \[[group assignments](https://docs.google.com/spreadsheets/d/15hqIKKFG00LoFy1i0JBwSzZI3U66fKe9N3FDoH7pq2o/edit?usp=sharing)\]
+    -   Midquarter assessments \[form\]
+    -   Request winter add code \[form\]
+    -   Read @emmert2020introductory (§1-5, §9) and prepare a reading response
+    -   third group assignment ***due Monday, November 14, 11:59pm PST*** \[[accept via GH classroom](https://classroom.github.com/a/jHAX1yAx)\] \[group assignments\]
 
 -   Optional further reading:
 
@@ -198,10 +192,10 @@ bibliography: slides/refs.bib
 
 -   ***Section meeting:*** office hours for vignette help
 
--   ***Thursday meeting:*** vignette presentation/exchange/feedback \[[feedback form](https://forms.gle/uxQUEJpJv6d6f3pD8)\]
+-   ***Thursday meeting:*** vignette presentation/exchange/feedback \[feedback form\]
 
 -   ***Assignments*** due by Friday, 12/2***:***
 
-    -   read [project abstracts](https://drive.google.com/drive/folders/15hOlgQYZs5VLHBICqIo0yupJiTogd-4q?usp=share_link)
+    -   read project abstracts
 
-    -   fill out [preference form](https://forms.gle/iYpHQKwREGJCQJcz5) (will be active end of day 11/29)
+    -   fill out preference form

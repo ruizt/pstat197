@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -68,11 +69,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Course syllabus</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Class materials</li><li class="breadcrumb-item"><a href="../pstat197a/about-syllabus.html">PSTAT197A</a></li><li class="breadcrumb-item"><a href="../pstat197a/about-syllabus.html">Course syllabus</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -80,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../index.html" class="sidebar-logo-link">
       <img src="../img/ucsbds_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -88,107 +94,98 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Data Science Capstone</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pstat197" title="" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="https://ucsbdscapstone.slack.com" title="" class="sidebar-tool px-1"><i class="bi bi-slack"></i></a>
+    <a href="https://github.com/pstat197" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://ucsbdscapstone.slack.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-slack"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../info-for-students.html" class="sidebar-item-text sidebar-link">Information for students</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../info-for-sponsors.html" class="sidebar-item-text sidebar-link">Sponsor a project</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../people.html" class="sidebar-item-text sidebar-link">People</a>
+  <a href="../people.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">People</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Projects</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Projects</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/projects-22-23.html" class="sidebar-item-text sidebar-link">2022-2023 Projects</a>
+  <a href="../projects/projects-22-23.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2022-2023 Projects</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/projects-21-22.html" class="sidebar-item-text sidebar-link">2021-2022 Projects</a>
+  <a href="../projects/projects-21-22.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2021-2022 Projects</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/projects-20-21.html" class="sidebar-item-text sidebar-link">2020-2021 Projects</a>
+  <a href="../projects/projects-20-21.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2020-2021 Projects</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Class materials</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Class materials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">PSTAT197A</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">PSTAT197A</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pstat197a/about-syllabus.html" class="sidebar-item-text sidebar-link active">Course syllabus</a>
+  <a href="../pstat197a/about-syllabus.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Course syllabus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pstat197a/about-materials.html" class="sidebar-item-text sidebar-link">Materials</a>
+  <a href="../pstat197a/about-materials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Materials</span></a>
   </div>
 </li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">PSTAT197B-C</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">PSTAT197B-C</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pstat197bc/about-syllabus.html" class="sidebar-item-text sidebar-link">Course syllabus</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../pstat197bc/about-winter-meetings.html" class="sidebar-item-text sidebar-link">Winter class meetings</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../pstat197bc/about-spring-meetings.html" class="sidebar-item-text sidebar-link">Spring class meetings</a>
+  <a href="../pstat197bc/about-syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course syllabus</span></a>
   </div>
 </li>
       </ul>
@@ -198,16 +195,14 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#meetings" id="toc-meetings" class="nav-link active" data-scroll-target="#meetings">Meetings</a></li>
-  <li><a href="#staff" id="toc-staff" class="nav-link" data-scroll-target="#staff">Staff</a></li>
-  <li><a href="#tentative-schedule" id="toc-tentative-schedule" class="nav-link" data-scroll-target="#tentative-schedule">Tentative schedule</a></li>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning outcomes</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link active" data-scroll-target="#learning-outcomes">Learning outcomes</a></li>
   <li><a href="#expectations-and-assessments" id="toc-expectations-and-assessments" class="nav-link" data-scroll-target="#expectations-and-assessments">Expectations and assessments</a></li>
   <li><a href="#sec-software" id="toc-sec-software" class="nav-link" data-scroll-target="#sec-software">Software</a></li>
   <li><a href="#sec-github" id="toc-sec-github" class="nav-link" data-scroll-target="#sec-github">GitHub</a></li>
@@ -220,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Course syllabus</h1>
+<h1 class="title">Course syllabus</h1>
 <p class="subtitle lead">Data science capstone preparation</p>
 </div>
 
@@ -250,193 +245,6 @@ ul.task-list li input[type="checkbox"] {
 
 <p><strong><em>Concurrent course listing:</em></strong> PSTAT197A and CMPSC190DD are held concurrently; enrollment is by instructor consent and admitted students may enroll under either listing. The course content, expectations, assessments, and course policies are identical for students enrolled in either course.</p>
 <p><strong><em>Catalog description:</em></strong> Introduction to research skills. Discussion of current research trends, writing literature reviews, etc. Students will be required to present materials reflecting their interests, which will be critically appraised for both content and presentation. Emphasis will be placed on aiding students to acquire a high-level of professionalism. <em>Prerequisite: PSTAT126.</em></p>
-<section id="meetings" class="level2">
-<h2 class="anchored" data-anchor-id="meetings">Meetings</h2>
-<p>Class meetings are held 2pm – 3:15pm Tuesdays and Thursdays in Ellison 2617.</p>
-<p>Section meetings are held on Wednesdays:</p>
-<ul>
-<li><p>2pm – 2:50pm in Girvetz 2115 with Josh;</p></li>
-<li><p>3pm – 3:50pm in Girvetz 2116 with Erika;</p></li>
-<li><p>4pm – 4:50pm in North Hall 1109 with Megan.</p></li>
-</ul>
-</section>
-<section id="staff" class="level2">
-<h2 class="anchored" data-anchor-id="staff">Staff</h2>
-<p><em><strong>Instructor</strong>:</em></p>
-<ul>
-<li><em>Trevor Ruiz.</em> Visiting assistant professor and co-instructor for 2021-2022 capstone projects.</li>
-</ul>
-<p><strong><em>Teaching assistants:</em></strong></p>
-<ul>
-<li><p><em>Erika McPhillips.</em> MS/PhD student and capstone project mentor in 2021-2022.</p></li>
-<li><p><em>Joshua Bang.</em> MS/PhD student and capstone project mentor in 2021-2022.</p></li>
-<li><p><em>Meghan Elcheikhali.</em> PhD student and capstone project mentor in 2021-2022.</p></li>
-</ul>
-<p><strong><em>Undergraduate learning assistant:</em></strong></p>
-<ul>
-<li><em>Yan Lashchev.</em> BS student and Data Science Fellow at UCSB in 2021-2022.</li>
-</ul>
-</section>
-<section id="tentative-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="tentative-schedule">Tentative schedule</h2>
-<p>This schedule is tentative and may be adjusted at the discretion of the instructor. Check back for updates.</p>
-<table class="table">
-<colgroup>
-<col style="width: 7%">
-<col style="width: 15%">
-<col style="width: 28%">
-<col style="width: 27%">
-<col style="width: 19%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Theme</th>
-<th>Tuesday meeting</th>
-<th>Thursday meeting</th>
-<th>Section meeting</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>Module 0: Introductions</td>
-<td>NO CLASS</td>
-<td>Course orientation</td>
-<td>NO LAB</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>Module 0: Introductions</td>
-<td><p>0.1 Lecture:</p>
-<ul>
-<li>on research projects in(volving) data science</li>
-</ul></td>
-<td><p>0.2 Activity:</p>
-<ul>
-<li>collaboration using GitHub</li>
-</ul></td>
-<td>Software and technology overview</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>Module 0: Introductions</td>
-<td><p>0.3 Lecture/discussion:</p>
-<ul>
-<li>introducing class survey data</li>
-</ul></td>
-<td><p>0.4 Activity:</p>
-<ul>
-<li>exploratory and descriptive analysis</li>
-</ul></td>
-<td>tidyverse</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>Module 1: biomarkers</td>
-<td><p>1.1 Discussion/lecture:</p>
-<ul>
-<li><p>sharing results of survey data analysis;</p></li>
-<li><p>introducing biomarker data</p></li>
-</ul></td>
-<td><p>1.2 Lecture:</p>
-<ul>
-<li>on prediction</li>
-</ul></td>
-<td>tidymodels</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>Module 1: biomarkers</td>
-<td><p>1.3 Lecture:</p>
-<ul>
-<li>on classification</li>
-</ul></td>
-<td><p>1.4 Lecture/discussion:</p>
-<ul>
-<li><p>on variable selection;</p></li>
-<li><p>review published analysis of biomarker data</p></li>
-</ul></td>
-<td>classification</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>Module 2: web fraud</td>
-<td><p>2.1 Lecture/discussion:</p>
-<ul>
-<li><p>sharing analysis of soil temperature data;</p></li>
-<li><p>introducing web fraud data</p></li>
-</ul></td>
-<td><p>2.2 Lecture:</p>
-<ul>
-<li>on text as data</li>
-</ul></td>
-<td>text processing</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>Module 2: web fraud</td>
-<td><p>2.3 Lecture:</p>
-<ul>
-<li>on multiclass classification</li>
-</ul></td>
-<td><p>2.4 Activity:</p>
-<ul>
-<li>measuring classification accuracy</li>
-</ul></td>
-<td>keras</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>Module 3: soil temperature</td>
-<td><p>3.1 Discussion/lecture:</p>
-<ul>
-<li><p>sharing results of biomarker analysis;</p></li>
-<li><p>introducing soil temperature data</p></li>
-</ul></td>
-<td><p>3.2 Lecture:</p>
-<ul>
-<li>on time</li>
-</ul></td>
-<td>time series analysis</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>Module 3: soil temperature</td>
-<td><p>3.3 Lecture:</p>
-<ul>
-<li>on space</li>
-</ul></td>
-<td>3.4 Discussion: results</td>
-<td>spatial analysis</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>Module 4: vignettes</td>
-<td><p>4.1 Activity:</p>
-<ul>
-<li>workshopping vignettes</li>
-</ul></td>
-<td>NO CLASS</td>
-<td>NO LAB</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Module 4: vignettes</td>
-<td><p>4.2 Activity:</p>
-<ul>
-<li>teaching exchange</li>
-</ul></td>
-<td><p>4.3 Activity/discussion:</p>
-<ul>
-<li><p>teaching exchange;</p></li>
-<li><p>closing</p></li>
-</ul></td>
-<td>NO LAB</td>
-</tr>
-</tbody>
-</table>
-</section>
 <section id="learning-outcomes" class="level2">
 <h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
 <p>This course emphasizes collaborative, interactive, and hands-on learning. Instruction in PSTAT197A will support all students in:</p>
@@ -524,9 +332,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -591,6 +413,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -633,7 +541,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Site content created by Trevor Ruiz using Quarto; hex logo by Priscilla Siow.</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright 2023 Trevor Ruiz</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

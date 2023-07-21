@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  page-footer: "Site content created by Trevor Ruiz using Quarto; hex logo by Priscilla Siow."
+  page-footer: "Copyright 2023 Trevor Ruiz"
   # reader-mode: true
   repo-url: "https://github.com/pstat197/pstat197.github.io"
   sidebar:
@@ -18,8 +18,6 @@ website:
       - icon: slack
         href: https://ucsbdscapstone.slack.com
     contents:
-      - info-for-students.qmd
-      - info-for-sponsors.qmd
       - people.qmd
       - section: "Projects"
         contents:
@@ -35,8 +33,6 @@ website:
           - section: "PSTAT197B-C"
             contents:
               - pstat197bc/about-syllabus.qmd
-              - pstat197bc/about-winter-meetings.qmd
-              - pstat197bc/about-spring-meetings.qmd
 
 format:
   html:
