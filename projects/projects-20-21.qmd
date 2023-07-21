@@ -1,8 +1,8 @@
 ---
-title: '2020-2021 Projects'
+title: "2020-2021 Projects"
 ---
 
-Listed alphabetically by project sponsor.
+*Listed alphabetically by project sponsor.*
 
 ## Appfolio
 

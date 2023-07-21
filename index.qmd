@@ -1,14 +1,10 @@
 ---
 title: "Data science capstone at UCSB"
 subtitle: "Collaborative research experiences for undergraduates in interdisciplinary data science, computational science, and statistics"
+date: today
+published-title: "Archived"
 ---
 
-::: callout-note
-## Note
-
-This is an ***archived*** class website. Some material and links have been removed.
-:::
+This is an archived class website from UC Santa Barbara's data science capstone --- the main purpose of this site is to maintain a record of materials, projects, and people from the initial years of the capstone. Some content and links have been removed.
 
 ![2022-2023 Cohort](img/2023-group-photo.jpg)
-
-This is an archived class website from UC Santa Barbara's data science capstone --- the main purpose of this site is to maintain a record of materials, projects, and people from the initial years of the capstone.

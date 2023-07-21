@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  page-footer: "Copyright 2023 Trevor Ruiz"
+  page-footer: "\u00a9 2023 Trevor Ruiz"
   # reader-mode: true
   repo-url: "https://github.com/pstat197/pstat197.github.io"
   sidebar:
@@ -18,12 +18,13 @@ website:
       - icon: slack
         href: https://ucsbdscapstone.slack.com
     contents:
+      - about.qmd
       - people.qmd
       - section: "Projects"
         contents:
-          - projects/projects-22-23.qmd
-          - projects/projects-21-22.qmd
-          - projects/projects-20-21.qmd
+        - projects/projects-22-23.qmd
+        - projects/projects-21-22.qmd
+        - projects/projects-20-21.qmd
       - section: "Class materials"
         contents:
           - section: "PSTAT197A"

@@ -3,7 +3,7 @@ title: "Course syllabus"
 subtitle: "Data science capstone"
 author: "PSTAT197B-C/CMPSC190DE-DF"
 author-title: "Course listing"
-date: "01/06/2022"
+date: "01/06/2023"
 date-format: "MMMM YYYY"
 published-title: "Updated"
 editor: visual

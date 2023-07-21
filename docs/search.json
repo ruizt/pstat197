@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Data science capstone at UCSB",
     "section": "",
-    "text": "Note\n\n\n\nThis is an archived class website. Some material and links have been removed.\n\n\n\n\n\n2022-2023 Cohort\n\n\nThis is an archived class website from UC Santa Barbara’s data science capstone — the main purpose of this site is to maintain a record of materials, projects, and people from the initial years of the capstone."
+    "text": "This is an archived class website from UC Santa Barbara’s data science capstone — the main purpose of this site is to maintain a record of materials, projects, and people from the initial years of the capstone. Some content and links have been removed.\n\n\n\n2022-2023 Cohort"
   },
   {
     "objectID": "pstat197bc/archived/work-in-progress-presentation-guidelines.html",
@@ -320,13 +320,6 @@
     "title": "Materials",
     "section": "",
     "text": "Textbooks:\n\nModern Data Science with R by Baumer, Kaplan, and Horton.\nIntroduction to Statistical Learning with Applications in R by James et al.\nFundamentals of Data Visualization by Claus Wilke.\nR for Data Science by Wickham and Grolemund.\nDeep Learning by Goodfellow, Bengio, and Courville.\n\nDocumentation:\n\nTidyverse and tidymodels packages\nGitHub Docs"
-  },
-  {
-    "objectID": "pstat197a/about-materials.html#sec-class-forms",
-    "href": "pstat197a/about-materials.html#sec-class-forms",
-    "title": "Materials",
-    "section": "",
-    "text": "Attendance reporting form; fill out once per class meeting.\nCapstone project intake form; fill out by September 23."
   },
   {
     "objectID": "pstat197a/about-materials.html#resources",
@@ -2114,13 +2107,6 @@
     "text": "Concurrent course listing: PSTAT197A and CMPSC190DD are held concurrently; enrollment is by instructor consent and admitted students may enroll under either listing. The course content, expectations, assessments, and course policies are identical for students enrolled in either course.\nCatalog description: Introduction to research skills. Discussion of current research trends, writing literature reviews, etc. Students will be required to present materials reflecting their interests, which will be critically appraised for both content and presentation. Emphasis will be placed on aiding students to acquire a high-level of professionalism. Prerequisite: PSTAT126."
   },
   {
-    "objectID": "pstat197a/about-syllabus.html#tentative-schedule",
-    "href": "pstat197a/about-syllabus.html#tentative-schedule",
-    "title": "Course syllabus",
-    "section": "Tentative schedule",
-    "text": "Tentative schedule\nThis schedule is tentative and may be adjusted at the discretion of the instructor.\n\n\n\n\n\n\n\n\n\n\nWeek\nTheme\nTuesday meeting\nThursday meeting\nSection meeting\n\n\n\n\n0\nModule 0: Introductions\nNO CLASS\nCourse orientation\nNO LAB\n\n\n1\nModule 0: Introductions\n0.1 Lecture:\n\non research projects in(volving) data science\n\n0.2 Activity:\n\ncollaboration using GitHub\n\nSoftware and technology overview\n\n\n2\nModule 0: Introductions\n0.3 Lecture/discussion:\n\nintroducing class survey data\n\n0.4 Activity:\n\nexploratory and descriptive analysis\n\ntidyverse\n\n\n3\nModule 1: biomarkers\n1.1 Discussion/lecture:\n\nsharing results of survey data analysis;\nintroducing biomarker data\n\n1.2 Lecture:\n\non prediction\n\ntidymodels\n\n\n4\nModule 1: biomarkers\n1.3 Lecture:\n\non classification\n\n1.4 Lecture/discussion:\n\non variable selection;\nreview published analysis of biomarker data\n\nclassification\n\n\n5\nModule 2: web fraud\n2.1 Lecture/discussion:\n\nsharing analysis of soil temperature data;\nintroducing web fraud data\n\n2.2 Lecture:\n\non text as data\n\ntext processing\n\n\n6\nModule 2: web fraud\n2.3 Lecture:\n\non multiclass classification\n\n2.4 Activity:\n\nmeasuring classification accuracy\n\nkeras\n\n\n7\nModule 3: soil temperature\n3.1 Discussion/lecture:\n\nsharing results of biomarker analysis;\nintroducing soil temperature data\n\n3.2 Lecture:\n\non time\n\ntime series analysis\n\n\n8\nModule 3: soil temperature\n3.3 Lecture:\n\non space\n\n3.4 Discussion: results\nspatial analysis\n\n\n9\nModule 4: vignettes\n4.1 Activity:\n\nworkshopping vignettes\n\nNO CLASS\nNO LAB\n\n\n10\nModule 4: vignettes\n4.2 Activity:\n\nteaching exchange\n\n4.3 Activity/discussion:\n\nteaching exchange;\nclosing\n\nNO LAB"
-  },
-  {
     "objectID": "pstat197a/about-syllabus.html#learning-outcomes",
     "href": "pstat197a/about-syllabus.html#learning-outcomes",
     "title": "Course syllabus",
@@ -3682,45 +3668,10 @@
     "text": "The capstone aims to provide students with hands-on research training and career development opportunities related to data science. It is equally suitable for students interested in entering the job market as it is for those considering graduate school – we partner with both industry and academic project sponsors to offer research experiences spanning a breadth of application domains."
   },
   {
-    "objectID": "about.html#what-to-expect",
-    "href": "about.html#what-to-expect",
+    "objectID": "about.html#student-experience",
+    "href": "about.html#student-experience",
     "title": "About",
-    "section": "What to expect",
-    "text": "What to expect\nStudents can expect to gain training and skills in collaborative data science and produce a strong work sample by the end of the program. All students will prepare a poster presentation for a public showcase of student work toward the end of the year. Posters will also be published online.\nDepending on the project, students may also contribute during or after the project work period to other outputs such as public repositories, software products, conference presentations, or publications.\nBesides project outputs, students receive mentorship from their project advisors throughout the course of the experiential learning component of the capstone. Students also gain access to the network of current and past participants and project sponsors for career development purposes."
-  },
-  {
-    "objectID": "about.html#prerequisites-and-eligibility",
-    "href": "about.html#prerequisites-and-eligibility",
-    "title": "About",
-    "section": "Prerequisites and eligibility",
-    "text": "Prerequisites and eligibility\nThe prerequisites for the capstone are exposure to (1) computing, (2) statistics and probability, and (3) regression. Since the program is interdisciplinary and intended to be accessible to non-PSTAT majors, these requirements are not strictly tied to any specific courses.\nFor the PSTAT student, completion of regression analysis (PSTAT126) should suffice. For the non-PSTAT student, any prior experience with statistical concepts, quantitative models, and computing will be considered.\nStudents should be of junior or senior standing by the term they would begin the capstone (i.e., fall of the year of application). A full-year commitment is expected to participate, so seniors expecting to graduate early may not be eligible. Younger students, even if otherwise eligible, will be encouraged to reapply in a later year.\nStudents should have a strong academic record and be motivated to learn independently and work on a research problem."
-  },
-  {
-    "objectID": "about.html#tips-for-success",
-    "href": "about.html#tips-for-success",
-    "title": "About",
-    "section": "Tips for success",
-    "text": "Tips for success\nWe have found that successful projects include students in making novel contributions to a broader research agenda based on concrete starting points. In other words, projects tend to be productive when there is a clear focus and purpose. In our view, mutually beneficial success is most likely when sponsors:\n\nare invested in students’ intellectual and professional development;\nhave identified a well-defined data science problem of clear value to their agenda or organization;\ncan provide initial work (analysis, codes, relevant literature) and hands-on direction and training to students at the beginning of the project to facilitate a quick start.\n\nProjects tend to be less productive in the absence of very specific direction and engagement on the part of the sponsor at the outset of the project – this often results in protracted exploratory analyses lacking focus. Typically, given the proper initial support, students are able to make ongoing progress with a fair degree of autonomy after a few weeks."
-  },
-  {
-    "objectID": "about.html#timeline",
-    "href": "about.html#timeline",
-    "title": "About",
-    "section": "Timeline",
-    "text": "Timeline\nProject work takes place in winter and spring quarters each year. As such, we follow this approximate timeline:\n\nJune – October: project recruitment for upcoming year\nOctober – November: development of project plans in collaboration with sponsors\nDecember: assignment of students and a faculty or graduate student advisor to the project\nJanuary: project work begins\nJune: project work concludes with poster showcase on UCSB’s campus\n\nThe general expectation is that datasets are in hand by the time project work begins. However, in some cases, projects may start with pilot data."
-  },
-  {
-    "objectID": "about.html#logistics",
-    "href": "about.html#logistics",
-    "title": "About",
-    "section": "Logistics",
-    "text": "Logistics\nSponsors provide:\n\nproject objectives and datasets;\nan advisor available to meet for one hour weekly or biweekly with the project team (virtual meetings ok) during the working period (January – June);\n(non-UCSB-affiliated sponsors only) a participation fee to support the project showcase and prizes for best projects\n\nUCSB provides:\n\nconsultation on project plan development;\nat least one faculty or graduate student co-advisor to join project meetings and assist students in meeting project goals;\nstudent research team matched to the project based on interests and skills;\nmeeting space and research computing resources."
-  },
-  {
-    "objectID": "about.html#disclosure-agreements",
-    "href": "about.html#disclosure-agreements",
-    "title": "About",
-    "section": "Disclosure agreements",
-    "text": "Disclosure agreements\nSponsors may wish to establish disclosure agreements covering the scope of project work. Typically such agreements pertain to data and information provided by the project sponsor for educational purposes, and are entered into by the university with the support of capstone program staff. Any such agreements are binding on students and faculty as university representatives.\nIn the 2023-2024 academic year we will be providing a standard nondisclosure agreement on request. We are happy to consider modifications to the standard agreement provided they are not overly restrictive – students will need to discuss their work with the class and prepare a public poster presentation in order to earn university credit. It should be noted that the university cannot enter into agreements pertaining to ownership of project deliverables – students retain rights to work that they produce for academic credit."
+    "section": "Student experience",
+    "text": "Student experience\nThe capstone is for senior students of any discipline having an intermediate level of experience with applied quantitative methods of any kind and some exposure to programming. Participation is by application only; to ensure each student has close interaction with peer collaborators, faculty, and sponsors, roughly 60 students are admitted each year.\nFor participating students, the capstone is a year-long course sequence comprising two distinct portions: a preparatory course in data science topics and collaborative research skills (PSTAT197A/CMPSC190DD, offered fall term) and two experiential learning courses in which students work in teams on interdisciplinary projects sponsored by an external partner and advised by a technical specialist (PSTAT197B-C/CMPSC190DE-DF, offered winter and spring terms). The course sequence culminates with a public showcase of student work.\nStudents can expect to gain training and skills in collaborative data science and produce a strong work sample by the end of the program. All students will prepare a poster presentation for the public showcase, and posters will be published online. Depending on the project, students may also contribute during or after the project work period to other outputs such as public repositories, software products, conference presentations, or publications."
   }
 ]

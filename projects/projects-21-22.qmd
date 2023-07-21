@@ -12,13 +12,13 @@ title: "2021-2022 Projects"
 
 **Project advisors:** Chad Spensky and Leron Reznikov
 
-Allthenticate provides a proximity-based app-enabled locking/unlocking system in place of traditional badge or lock-and-key security systems. The primary objectives of this project are to quantify the benefits that our Allthenticate's security product provides and identifying opportunities to improve the Allthenticate user experience. 
+Allthenticate provides a proximity-based app-enabled locking/unlocking system in place of traditional badge or lock-and-key security systems. The primary objectives of this project are to quantify the benefits that our Allthenticate's security product provides and identifying opportunities to improve the Allthenticate user experience.
 
 First, we want to quantify how much of an improvement Allthenticate's security solution provides over existing solutions. This includes tasks such as measuring time saved by using Allthenticate, tracking changes in Bluetooth connection, and monitoring app status. We will analyze the user data provided by the logs from readers, as well as the phone and computer apps. Second, we intend to increase how well the product is working. Allthenticate is constantly improving, and with user-happiness being at the core of the company's values, we want to cater the best experience for the user. An example of this could be predicting a user's app behaviors to personalize their UI to give them the most seamless experience for their particular needs.
 
 Using preliminary product data, we developed a visualization dashboard for real-time monitoring of a client's system activity.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/allthenticate-poster.png)
 :::
 
@@ -34,7 +34,7 @@ For this project, we created a recommender system that predicts users interests 
 
 Building this model will allow AppFolio to analyze the results of our recommender system to assess how interaction data can be used to better their products. We explored multiple models including the Bilateral Variational Autoencoder (BiVae), TriVae, Visual Bayesian Personalized Ranking (VBPR), and Deep Cross Network (DCN) in an effort to achieve the highest prediction accuracy using 16 property features from our given dataset and images. Ultimately, we want to integrate our model into the Santa Barbara property website, which was built by the AppFolio Sponsored CS Capstone team.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/appfolio-poster.png)
 :::
 
@@ -48,7 +48,7 @@ Building this model will allow AppFolio to analyze the results of our recommende
 
 The goal of this project is to visualize the variation of ocean chemistry over time and space in the California current to help understand changing ocean conditions and identify potential impacts on marine life. We will create an exploratory tool using long-term oceaongraphic data collected by CalCOFI. Data includes quarterly measurements of oceanic samples, at a depth of up to 1,000m, collected from 1970-2020. Parameters explored are dissolved oxygen, temperature, salinity, and chlorophyll.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/calcofi-poster.png)
 :::
 
@@ -64,7 +64,7 @@ Insurance companies typically receive a significant number of claims each year. 
 
 Our dataset contained 42,485 web pages potentially containing claimant activity information identified through proprietary search methods and manually labeled. We classified each page into one of several classes of potentially fraudulent activity. Ultimately, our best performing model was our SVM classifier with a weighted average precision of 85%.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/carpedata-poster.png)
 :::
 
@@ -80,7 +80,7 @@ Bee species are decreasing in both number and diversity. As important pollinator
 
 We worked with 550 high resolution lateral bee images that were gathered from various institutions for the Big Bee Library, an online repository of bee image, trait, and specimen data. Contributors included the Museum of Comparative Zoology, Harvard University, University of Kansas Natural History Museum Entomology Division, and the UC Santa Barbara Cheadle Center for Biodiversity and Ecological Restoration. This research was supported by the National Science Foundation: Extending Anthophila research through image and trait digitization (Big-Bee) project (DBI2102006).
 
-::: {.column-screen}
+::: column-screen
 ![](posters/ccber-poster.png)
 :::
 
@@ -96,7 +96,7 @@ In 2020, The Social Dilemma became the most popular movie on Netflix. The docume
 
 To answer this question, we performed a series of statistical analyses on user-generated posts from Twitter and Reddit. Although our study reveals a difference in the user behavior patterns between the two platforms, the statistical results suggest that, based on the social media data, the movie did not change people's social media usage.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/cits-poster.png)
 :::
 
@@ -138,7 +138,7 @@ Using wearable, survey, and biomedical data from healthcare workers measured dur
 
 The features we used primarily came from wearable and survey data such as the Oura Ring, Daily Stress Measure, PTSD, Adverse Childhood Events (ACE), and Demographics datasets that were provided from Synapse database. We built two models: a mixed effects model that accounts for subject-specific baseline stress levels in predicting excess stress; and a logistic regression that identifies population-level indicators of stress.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/evidation1-poster.png)
 :::
 
@@ -164,7 +164,7 @@ See our project poster [here](https://drive.google.com/drive/u/1/folders/1iXw7CQ
 
 The primary goal of this project is to analyze patterns in product adoption to effectively engage with existing and/or potential customers. Our primary dataset consists of companies' product quality ratings across the United States over a span of 20 years, ranging from 2001 to the present. Two of the main features we used are 'signal score,' which is a 1-3 score of how recently the product was observed, and 'intensity' which is a measure of how much a product is observed over time.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/hg-poster.png)
 :::
 
@@ -178,7 +178,7 @@ The primary goal of this project is to analyze patterns in product adoption to e
 
 This project aims to model neurodegeneration in brain organoids by single-cell RNA sequencing. Through the use of statistical methods we are aiming to compare differences in gene expression between control and mutant brain organoids. In addition we aim to identify cell populations that are more or less abundant in the mutant brain organoids. Thus, we are aiming to gain insight in disease mechanisms that lead to neurodegeneration.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/nri-poster.png)
 :::
 
@@ -192,7 +192,7 @@ This project aims to model neurodegeneration in brain organoids by single-cell R
 
 The field of model compression has enjoyed many advancements in recent years, yet few reliable methods have been developed specifically for the natural language processing (NLP) domain. In this project, we provide a review of model compression techniques and develop custom NLP-specific compression methods. We demonstrate the implementation of our methods on a sentiment analysis task.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/pwc-poster.png)
 :::
 
@@ -206,6 +206,6 @@ The field of model compression has enjoyed many advancements in recent years, ye
 
 We leverage the recent progress made in text-to-image generation for deep image reconstruction. After building a joint-embedding model which maps the patient's fMRI to a shared image-text space, we use a pre-trained decoder (LAFITE) which is able to recreate the stimulus image from the encoded vector.
 
-::: {.column-screen}
+::: column-screen
 ![](posters/sprague-poster.png)
 :::
