@@ -4,6 +4,7 @@ project:
 
 website:
   page-footer: "\u00a9 2023 Trevor Ruiz"
+  google-analytics: "G-H3YKZX4J88"
   # reader-mode: true
   repo-url: "https://github.com/pstat197/pstat197.github.io"
   sidebar:
